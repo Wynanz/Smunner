@@ -9,6 +9,10 @@ import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { AnyPercentComponent } from './pages/any-percent/any-percent.component';
 import { HundredPercentComponent } from './pages/hundred-percent/hundred-percent.component';
+import { GtcComponent } from './pages/gtc/gtc.component';
+import { BossesComponent } from './pages/bosses/bosses.component';
+import { TechniquesComponent } from './pages/techniques/techniques.component';
+import { ToolsComponent } from './pages/tools/tools.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { HundredPercentComponent } from './pages/hundred-percent/hundred-percent
     FooterComponent,
     MainComponent,
     AnyPercentComponent,
-    HundredPercentComponent
+    HundredPercentComponent,
+    GtcComponent,
+    BossesComponent,
+    TechniquesComponent,
+    ToolsComponent
   ],
   imports: [
     BrowserModule,
